@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&family=Tiny5&display=swap');
+
+.tiny5-regular {
+  font-family: "Tiny5", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.spicy-rice-regular {
+  font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #0B032D;
+  gap: 16px;
+  justify-content: space-evenly;
+}
+
+.main {
+  font-family: 'Tiny5', Courier, monospace;
+  margin-top: 20px;
+  font-size: 5rem;
+  color: #fff;
+}
+
+
+#container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  background: #fff;
+  width: 750px;
+  height: 750px;
+}
+
+button {
+  font-family: "Spicy Rice", serif;
+  font-size: 32px;
+  border: none;
+  padding: 5px 10px;
+  margin: 10px;
+  color: #F7F7F7;
+  background: #AF47D2;
+  border-radius: 25px;
+}
+
+
+
+
+
+.row {
+  display: flex;
+  flex: auto;
+}
+
+.column {
+  flex: 1;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  transition: background-color 0.3s;
+}
+
+
+
+.colored1 { background-color: rgb(255, 99, 71); }   /* Tomato */
+.colored2 { background-color: rgb(135, 206, 235); } /* SkyBlue */
+.colored3 { background-color: rgb(255, 105, 180); } /* HotPink */
+.colored4 { background-color: rgb(240, 230, 140); } /* Khaki */
+.colored5 { background-color: rgb(34, 139, 34); }   /* ForestGreen */
+.colored6 { background-color: rgb(255, 215, 0); }   /* Gold */
+.colored7 { background-color: rgb(173, 216, 230); } /* LightBlue */
+.colored8 { background-color: rgb(255, 165, 0); }   /* Orange */
+.colored9 { background-color: rgb(123, 104, 238); } /* MediumSlateBlue */
+.colored10 { background-color: rgb(255, 69, 0); }   /* OrangeRed */
+.colored11 { background-color: rgb(144, 238, 144); } /* LightGreen */
+.colored12 { background-color: rgb(30, 144, 255); }  /* DodgerBlue */
+.colored13 { background-color: rgb(221, 160, 221); } /* Plum */
+.colored14 { background-color: rgb(255, 228, 225); } /* MistyRose */
+.colored15 { background-color: rgb(250, 128, 114); } /* Salmon */
+.colored16 { background-color: rgb(255, 182, 193); } /* LightPink */
